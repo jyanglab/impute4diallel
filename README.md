@@ -1,5 +1,8 @@
 # impute4diallel
 
+## Usage
+
+```
 usage: impute4diallel_v1.2.py [-h] [-p [PATH]] [-d DIALLEL] [-i DSF]
                               [-s START] [-e END] [--header {yes,no}]
                               [-o OUTPUT] [-m {0,1,2,3,4}]
@@ -33,3 +36,4 @@ optional arguments:
                         [default --mode=0]; 0, for GenSel; 1, for PLINK; 2,
                         for SNPTEST; need chr pos in the dsf file! 3, for raw;
                         4, for GenSel dominant model.
+```
